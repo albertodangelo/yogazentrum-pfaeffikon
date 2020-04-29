@@ -1,0 +1,44 @@
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.btn-default {
+	background-image: -webkit-linear-gradient(top, #fff 0%, #e0e0e0 100%);
+	background-image: -o-linear-gradient(top, #fff 0%, #e0e0e0 100%);
+	background-image: linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE0E0E0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	border-color: #dbdbdb;
+	text-shadow: 0 1px 0 #fff;
+	border-color: #ccc;
+}
+
+.highlight-date {
+	background: rgba(229,229,229,0.5);
+	color: black;
+	padding: 3px 15px;
+	transform-property: background;
+	transform: skewX(-18deg);
+	-webkit-transform-property: background;
+	-webkit-transform: skewX(-18deg);
+	-moz-transform-property: background;
+	-moz-transform: skewX(-18deg);
+}
